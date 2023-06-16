@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f173698f-f4e0-41b8-a709-7910f54b37c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Basic Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Basic Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Ink.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Ink/story.ink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Ink/story.ink.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Ink/story.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Ink/story.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Prefabs/Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Prefabs/Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Prefabs/Text.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Prefabs/Text.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Scripts/Editor/BasicInkExampleEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Scripts/Editor/BasicInkExampleEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Scripts/QuitGameOnKeypress.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Demos/Basic Demo/Scripts/QuitGameOnKeypress.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Compiler.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Compiler/Auto Compiler.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Compiler/Auto Compiler/InkPostProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Compiler/Auto Compiler/InkPostProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Compiler/InkCompiler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Compiler/InkCompiler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Compiler/UnityInkFileHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Compiler/UnityInkFileHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Ink Library.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Ink Library/InkCompilerLog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Ink Library/InkCompilerLog.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Ink Library/InkFile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Ink Library/InkFile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Ink Library/InkLibrary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Ink Library/InkLibrary.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Ink Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Ink Settings/InkSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Ink Settings/InkSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Ink Settings/InkSettingsEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/Ink Settings/InkSettingsEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/InkEditorUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Core/InkEditorUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/InkEditor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/InkEditor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Build Validation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Build Validation/InkPreBuildValidationCheck.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Build Validation/InkPreBuildValidationCheck.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/InkBrowserIcons.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/InkBrowserIcons.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkChildIcon-Large.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkChildIcon-Large.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkChildIcon.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkChildIcon.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkCompileManualIcon.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkCompileManualIcon.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkDefaultTemplate.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkDefaultTemplate.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkErrorIcon.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkErrorIcon.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-Large.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-Large.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-retina.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-retina.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkFileIcon.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkFileIcon.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkTodoIcon.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkTodoIcon.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkUnknownFileIcon.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkUnknownFileIcon.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkWarningIcon.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/File Icons/Resources/InkWarningIcon.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Ink Inspector.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Ink Inspector/DefaultAssetEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Ink Inspector/DefaultAssetEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Ink Inspector/DefaultAssetInspector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Ink Inspector/DefaultAssetInspector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Ink Inspector/InkInspector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Ink Inspector/InkInspector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Player Window.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Player Window/InkHistoryContentItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Player Window/InkHistoryContentItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Player Window/InkPlayerWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Player Window/InkPlayerWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Startup Window.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Startup Window/InkUnityIntegrationStartupWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Startup Window/InkUnityIntegrationStartupWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Startup Window/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Startup Window/Resources/InkLogoIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Editor/Tools/Startup Window/Resources/InkLogoIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Extras.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Extras/Sublime3Syntax.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/Extras/Sublime3Syntax.zip.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/Ink-Libraries.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/Ink-Libraries.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/CharacterRange.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/CharacterRange.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/CharacterSet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/CharacterSet.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/CommandLineInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/CommandLineInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/Compiler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/Compiler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/FileHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/FileHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/CommentEliminator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/CommentEliminator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_AuthorWarning.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_AuthorWarning.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_CharacterRanges.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_CharacterRanges.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Choices.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Choices.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_CommandLineInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_CommandLineInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Conditional.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Conditional.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Content.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Content.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Divert.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Divert.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Expressions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Expressions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Include.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Include.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Knot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Knot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Logic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Logic.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Sequences.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Sequences.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Statements.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Statements.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Tags.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Tags.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Whitespace.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkParser/InkParser_Whitespace.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkStringConversionExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/InkStringConversionExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/AuthorWarning.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/AuthorWarning.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Choice.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Choice.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Conditional.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Conditional.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConditionalSingleBranch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConditionalSingleBranch.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConstantDeclaration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConstantDeclaration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/ContentList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/ContentList.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/DivertTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/DivertTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Expression.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Expression.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/ExternalDeclaration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/ExternalDeclaration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowLevel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowLevel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/FunctionCall.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/FunctionCall.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Gather.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Gather.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/INamedContent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/INamedContent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/IWeavePoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/IWeavePoint.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Identifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Identifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/IncludedFile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/IncludedFile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Knot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Knot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/List.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/List.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/ListDefinition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/ListDefinition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Number.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Number.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/Plugins/Plugin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/Plugins/Plugin.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/Plugins/PluginManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/Plugins/PluginManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/Stats.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/Stats.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/StringParser.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/StringParser/StringParserState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkCompiler/StringParser/StringParserState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/CallStack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/CallStack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Choice.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Choice.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/ChoicePoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/ChoicePoint.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Container.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Container.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/ControlCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/ControlCommand.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/DebugMetadata.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/DebugMetadata.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Divert.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Divert.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Error.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Error.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Flow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Flow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Glue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Glue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/INamedContent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/INamedContent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/InkList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/InkList.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/JsonSerialisation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/JsonSerialisation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/ListDefinition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/ListDefinition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/ListDefinitionsOrigin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/ListDefinitionsOrigin.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/NativeFunctionCall.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/NativeFunctionCall.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Object.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Object.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Path.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Path.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Pointer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Pointer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Profiler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Profiler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/PushPop.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/PushPop.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/SearchResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/SearchResult.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/SimpleJson.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/SimpleJson.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/StatePatch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/StatePatch.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Story.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Story.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/StoryException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/StoryException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/StoryState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/StoryState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/StringJoinExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/StringJoinExtension.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Tag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Tag.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Value.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Value.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/VariableAssignment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/VariableAssignment.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/VariableReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/VariableReference.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/VariablesState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/VariablesState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Void.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/InkLibs/InkRuntime/Void.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Ink/package.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/InkSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameDev_Project_Privilege/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameDev_Project_Privilege/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Basic Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Basic Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Ink.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Ink/story.ink" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Ink/story.ink.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Ink/story.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Ink/story.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Prefabs/Button.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Prefabs/Button.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Prefabs/Text.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Prefabs/Text.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/Editor/BasicInkExampleEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/Editor/BasicInkExampleEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/QuitGameOnKeypress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/QuitGameOnKeypress.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Compiler.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Compiler/Auto Compiler.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Compiler/Auto Compiler/InkPostProcessor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Compiler/Auto Compiler/InkPostProcessor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Compiler/InkCompiler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Compiler/InkCompiler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Compiler/UnityInkFileHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Compiler/UnityInkFileHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Library.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Library/InkCompilerLog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Library/InkCompilerLog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Library/InkFile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Library/InkFile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Library/InkLibrary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Library/InkLibrary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Settings/InkSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Settings/InkSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Settings/InkSettingsEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Settings/InkSettingsEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/InkEditorUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Core/InkEditorUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/InkEditor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/InkEditor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Build Validation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Build Validation/InkPreBuildValidationCheck.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Build Validation/InkPreBuildValidationCheck.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/InkBrowserIcons.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/InkBrowserIcons.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon-Large.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon-Large.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkChildIcon.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkCompileManualIcon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkCompileManualIcon.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkDefaultTemplate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkDefaultTemplate.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkErrorIcon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkErrorIcon.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-Large.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-Large.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-retina.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon-retina.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkFileIcon.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkTodoIcon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkTodoIcon.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkUnknownFileIcon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkUnknownFileIcon.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkWarningIcon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/File Icons/Resources/InkWarningIcon.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Ink Inspector.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Ink Inspector/DefaultAssetInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Ink Inspector/InkInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Ink Inspector/InkInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Player Window.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Player Window/InkHistoryContentItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Player Window/InkHistoryContentItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Player Window/InkPlayerWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Player Window/InkPlayerWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Startup Window.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Startup Window/InkUnityIntegrationStartupWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Startup Window/InkUnityIntegrationStartupWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Startup Window/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Startup Window/Resources/InkLogoIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Editor/Tools/Startup Window/Resources/InkLogoIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Extras.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Extras/Sublime3Syntax.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/Extras/Sublime3Syntax.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/Ink-Libraries.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/Ink-Libraries.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/CharacterRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/CharacterRange.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/CharacterSet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/CharacterSet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/CommandLineInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/CommandLineInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/Compiler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/Compiler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/FileHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/FileHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/CommentEliminator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/CommentEliminator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_AuthorWarning.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_AuthorWarning.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CharacterRanges.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CharacterRanges.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Choices.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Choices.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CommandLineInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_CommandLineInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Conditional.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Conditional.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Content.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Content.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Divert.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Divert.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Expressions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Expressions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Include.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Include.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Knot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Knot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Logic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Logic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Sequences.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Sequences.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Statements.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Statements.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Tags.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Tags.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Whitespace.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkParser/InkParser_Whitespace.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkStringConversionExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/InkStringConversionExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/AuthorWarning.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/AuthorWarning.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Choice.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Choice.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Conditional.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Conditional.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConditionalSingleBranch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConditionalSingleBranch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConstantDeclaration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConstantDeclaration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ContentList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ContentList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/DivertTarget.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/DivertTarget.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Expression.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Expression.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ExternalDeclaration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ExternalDeclaration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowLevel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowLevel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FunctionCall.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FunctionCall.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Gather.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Gather.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/INamedContent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/INamedContent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IWeavePoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IWeavePoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Identifier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Identifier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IncludedFile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IncludedFile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Knot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Knot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/List.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/List.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ListDefinition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ListDefinition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Number.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Number.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/Plugins/Plugin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/Plugins/Plugin.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/Plugins/PluginManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/Plugins/PluginManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/Stats.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/Stats.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/StringParser.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParserState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParserState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/CallStack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/CallStack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Choice.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Choice.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/ChoicePoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/ChoicePoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Container.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Container.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/ControlCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/ControlCommand.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/DebugMetadata.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/DebugMetadata.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Divert.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Divert.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Error.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Error.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Flow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Flow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Glue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Glue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/INamedContent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/INamedContent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/InkList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/InkList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/JsonSerialisation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/JsonSerialisation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/ListDefinition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/ListDefinition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/ListDefinitionsOrigin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/ListDefinitionsOrigin.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/NativeFunctionCall.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/NativeFunctionCall.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Object.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Object.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Path.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Path.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Pointer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Pointer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Profiler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Profiler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/PushPop.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/PushPop.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/SearchResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/SearchResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/SimpleJson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/SimpleJson.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/StatePatch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/StatePatch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Story.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Story.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/StoryException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/StoryException.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/StoryState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/StoryState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Tag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Tag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Value.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Value.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/VariableAssignment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/VariableAssignment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/VariableReference.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/VariableReference.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/VariablesState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/VariablesState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Void.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/InkLibs/InkRuntime/Void.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ink/package.json.meta" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RGrV4hzKxUKviWLGGkecvKpzkB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "rider.run.widget.enabled.cache": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Unity\2021.3.15f1c1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\UnityFile\GameDev_Project_Privilege -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\UnityFile\GameDev_Project_Privilege" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f173698f-f4e0-41b8-a709-7910f54b37c0" name="Changes" comment="" />
+      <created>1686887307299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686887307299</updated>
+      <workItem from="1686887343294" duration="1985000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
